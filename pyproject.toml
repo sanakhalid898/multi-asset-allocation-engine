@@ -1,7 +1,7 @@
 [project]
-name = "multi-asset-portfolio-decision-system"
+name = "multi-asset-allocation-engine"
 version = "0.1.0"
-description = "A multi-asset portfolio analytics and decision system for allocation, risk, scenario analysis, and investment research."
+description = "Bayesian multi-asset allocation engine with mandate-constrained optimization and pre-trade risk analysis."
 readme = "README.md"
 requires-python = ">=3.11"
 
