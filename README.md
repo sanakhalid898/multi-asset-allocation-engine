@@ -1,4 +1,4 @@
-# Multi-Asset Portfolio Decision System
+# Multi-Asset Allocation Engine
 
 A production-grade decision-support system for multi-asset allocation: Bayesian capital market assumptions, mandate-constrained optimization, and pre-trade impact analysis.
 
