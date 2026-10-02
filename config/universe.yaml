@@ -1,0 +1,56 @@
+# Asset universe: ETFs used as proxies for each asset class.
+
+benchmark:
+  SPY: 0.60
+  AGG: 0.40
+
+assets:
+  - ticker: SPY
+    name: SPDR S&P 500 ETF Trust
+    asset_class: equity
+    region: us
+
+  - ticker: EFA
+    name: iShares MSCI EAFE ETF
+    asset_class: equity
+    region: developed_ex_us
+
+  - ticker: EEM
+    name: iShares MSCI Emerging Markets ETF
+    asset_class: equity
+    region: emerging
+
+  - ticker: AGG
+    name: iShares Core US Aggregate Bond ETF
+    asset_class: fixed_income
+    region: us
+
+  - ticker: IEF
+    name: iShares 7-10 Year Treasury Bond ETF
+    asset_class: fixed_income
+    region: us
+
+  - ticker: TLT
+    name: iShares 20+ Year Treasury Bond ETF
+    asset_class: fixed_income
+    region: us
+
+  - ticker: LQD
+    name: iShares iBoxx $ Investment Grade Corporate Bond ETF
+    asset_class: fixed_income
+    region: us
+
+  - ticker: HYG
+    name: iShares iBoxx $ High Yield Corporate Bond ETF
+    asset_class: fixed_income
+    region: us
+
+  - ticker: GLD
+    name: SPDR Gold Shares
+    asset_class: commodity
+    region: global
+
+  - ticker: BIL
+    name: SPDR Bloomberg 1-3 Month T-Bill ETF
+    asset_class: cash
+    region: us
